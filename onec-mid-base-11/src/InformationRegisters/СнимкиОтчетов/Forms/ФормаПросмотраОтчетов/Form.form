@@ -182,6 +182,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.СнимкиОтчетов</commandName>
+          <buttonImportance>Supplementary</buttonImportance>
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -279,6 +280,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ПерейтиКНачалу</commandName>
+          <buttonImportance>Supplementary</buttonImportance>
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -376,6 +378,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ПерейтиНазад</commandName>
+          <buttonImportance>Supplementary</buttonImportance>
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -473,6 +476,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ПерейтиВперед</commandName>
+          <buttonImportance>Supplementary</buttonImportance>
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -570,6 +574,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ПерейтиККонцу</commandName>
+          <buttonImportance>Supplementary</buttonImportance>
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -667,6 +672,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.УдалитьСнимокОтчета</commandName>
+          <buttonImportance>Supplementary</buttonImportance>
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -802,6 +808,7 @@
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
+  <showCommandBar>false</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -812,13 +819,14 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ТекущийСнимокОтчета</name>
@@ -961,6 +969,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПерейтиККонцу</name>
@@ -985,6 +994,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПерейтиКНачалу</name>
@@ -1009,6 +1019,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПерейтиНазад</name>
@@ -1033,6 +1044,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>СнимкиОтчетов</name>
@@ -1058,6 +1070,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>УдалитьСнимокОтчета</name>
@@ -1082,6 +1095,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

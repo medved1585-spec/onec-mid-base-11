@@ -58,6 +58,7 @@
           <choiceButton>true</choiceButton>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -158,6 +159,7 @@
               <value>true</value>
             </value>
           </choiceList>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -251,6 +253,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -293,6 +296,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -339,6 +343,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -381,6 +386,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -442,7 +448,7 @@
             <representation>NormalSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -471,6 +477,7 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>Form.Command.ОткрытьНомераОтсканированныхФайлов</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -559,6 +566,7 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <textSize>Normal</textSize>
                 <dropListWidth>9</dropListWidth>
               </extInfo>
             </items>
@@ -875,6 +883,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
               <dropListWidth>9</dropListWidth>
             </extInfo>
           </items>
@@ -903,7 +912,7 @@
             <representation>NormalSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -957,6 +966,7 @@ TIF - Не все браузеры отображают этот формат.</
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
               <dropListWidth>9</dropListWidth>
             </extInfo>
           </items>
@@ -985,7 +995,7 @@ TIF - Не все браузеры отображают этот формат.</
             <representation>NormalSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -1067,6 +1077,7 @@ TIF - Не все браузеры отображают этот формат.</
                       <value>1</value>
                     </value>
                   </choiceList>
+                  <orientation>Vertical</orientation>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -1211,6 +1222,7 @@ TIF - Не все браузеры отображают этот формат.</
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
               <inputHint>
                 <key>ru</key>
                 <value>Путь к ImageMagick</value>
@@ -1403,6 +1415,7 @@ TIF - Не все браузеры отображают этот формат.</
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
           <inputHint>
             <key>ru</key>
             <value>Каталог журнала диагностики</value>
@@ -1438,11 +1451,11 @@ TIF - Не все браузеры отображают этот формат.</
           <value>Диагностика проблем</value>
         </collapsedRepresentationTitle>
         <collapsed>true</collapsed>
-        <controlRepresentation>Picture</controlRepresentation>
+        <controlRepresentation>Button</controlRepresentation>
         <representation>NormalSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
@@ -1639,6 +1652,7 @@ TIF - Не все браузеры отображают этот формат.</
           </extInfo>
         </extendedTooltip>
         <commandName>Form.StandardCommand.Cancel</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1665,6 +1679,7 @@ TIF - Не все браузеры отображают этот формат.</
           </extInfo>
         </extendedTooltip>
         <commandName>Form.StandardCommand.Help</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1694,6 +1709,7 @@ TIF - Не все браузеры отображают этот формат.</
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.УстановитьСтандартныеНастройки</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1722,6 +1738,7 @@ TIF - Не все браузеры отображают этот формат.</
         <type>Popup</type>
         <extInfo xsi:type="form:PopupGroupExtInfo">
           <representation>Auto</representation>
+          <importance>Normal</importance>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1778,6 +1795,7 @@ TIF - Не все браузеры отображают этот формат.</
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
+  <showCommandBar>false</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -1796,14 +1814,14 @@ TIF - Не все браузеры отображают этот формат.</
     <event>FillCheckProcessingAtServer</event>
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ПоказыватьДиалогСканера</name>
@@ -2257,6 +2275,7 @@ TIF - Не все браузеры отображают этот формат.</
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>УстановитьСтандартныеНастройки</name>
@@ -2278,6 +2297,7 @@ TIF - Не все браузеры отображают этот формат.</
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ОткрытьНомераОтсканированныхФайлов</name>
@@ -2299,6 +2319,7 @@ TIF - Не все браузеры отображают этот формат.</
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ПовторноеСканирование</name>

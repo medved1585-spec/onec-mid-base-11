@@ -89,6 +89,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Item.ГруппыПользователей.StandardCommand.Choose</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>PictureAndText</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -122,6 +123,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Item.ПользователиСписок.StandardCommand.Choose</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -155,6 +157,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Item.ПользователиСписок.StandardCommand.Create</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>PictureAndText</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -181,6 +184,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.СоздатьГруппуПользователей</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -229,6 +233,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.НазначитьГруппы</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -257,6 +262,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.StandardCommand.Choose</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -282,6 +288,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.StandardCommand.Copy</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -307,6 +314,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.StandardCommand.Change</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -367,6 +375,7 @@
             <picture>StdPicture.InputOnBasis</picture>
           </picture>
           <representation>Picture</representation>
+          <importance>Normal</importance>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -446,6 +455,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.СведенияОПользователях</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -503,6 +513,7 @@
             <picture>CommonPicture.Отчеты</picture>
           </picture>
           <representation>PictureAndText</representation>
+          <importance>Normal</importance>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -527,6 +538,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.ИзменитьВыделенные</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -553,6 +565,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Catalog.Пользователи.Command.ПользователиИнформационнойБазы</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -579,6 +592,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.УстановитьПароль</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -604,6 +618,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.ЗаблокироватьНедействительныхПользователейВСистемеВзаимодействий</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -633,6 +648,7 @@
         <type>Popup</type>
         <extInfo xsi:type="form:PopupGroupExtInfo">
           <representation>Auto</representation>
+          <importance>Normal</importance>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -675,6 +691,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Help</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -793,6 +810,7 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.ЗавершитьИЗакрыть</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -818,6 +836,7 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.Выбрать</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <width>3</width>
       <autoMaxWidth>true</autoMaxWidth>
@@ -879,6 +898,7 @@
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
         <editTextUpdate>DontUse</editTextUpdate>
+        <textSize>Normal</textSize>
         <inputHint>
           <key>ru</key>
           <value>Введите имя, адрес, телефон...</value>
@@ -905,6 +925,7 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.ВставитьИзБуфераОбмена</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <width>3</width>
       <autoMaxWidth>true</autoMaxWidth>
@@ -937,6 +958,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.StandardCommand.CustomizeForm</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -962,6 +984,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.StandardCommand.Help</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -987,6 +1010,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.StandardCommand.OutputList</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1315,6 +1339,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <commandName>Form.Item.ГруппыПользователей.StandardCommand.OutputList</commandName>
+                  <buttonImportance>Normal</buttonImportance>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1337,7 +1362,10 @@
               <footerHeight>1</footerHeight>
               <horizontalScrollBar>AutoUse</horizontalScrollBar>
               <verticalScrollBar>AutoUse</verticalScrollBar>
-              <useAlternationRowColor>true</useAlternationRowColor>
+              <horizontalLines>true</horizontalLines>
+              <verticalLines>true</verticalLines>
+              <horizontalLinesBWA>false</horizontalLinesBWA>
+              <verticalLinesBWA>false</verticalLinesBWA>
               <searchOnInput>Auto</searchOnInput>
               <initialListView>Auto</initialListView>
               <initialTreeView>ExpandTopLevel</initialTreeView>
@@ -1351,6 +1379,7 @@
                 <picture>CommonPicture.СостоянияПользователей</picture>
               </rowsPicture>
               <currentRowUse>SelectionPresentationAndChoice</currentRowUse>
+              <autoMaxCardHeight>true</autoMaxCardHeight>
               <extInfo xsi:type="form:DynamicListTableExtInfo">
                 <autoRefreshPeriod>60</autoRefreshPeriod>
                 <period>
@@ -1384,6 +1413,7 @@
                 </extendedTooltip>
                 <type>UsualButton</type>
                 <commandName>Form.Command.ВыбратьГруппу</commandName>
+                <buttonImportance>Normal</buttonImportance>
                 <representation>Auto</representation>
                 <width>5</width>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1411,6 +1441,7 @@
                 </extendedTooltip>
                 <type>UsualButton</type>
                 <commandName>Form.Command.ОтменитьВыборПользователяИлиГруппы</commandName>
+                <buttonImportance>Normal</buttonImportance>
                 <representation>Auto</representation>
                 <width>5</width>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1438,6 +1469,7 @@
                 </extendedTooltip>
                 <type>UsualButton</type>
                 <commandName>Form.Command.ОчиститьСписокВыбранныхПользователейИГрупп</commandName>
+                <buttonImportance>Normal</buttonImportance>
                 <representation>Auto</representation>
                 <width>5</width>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1728,6 +1760,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <commandName>Form.Item.ПользователиСписок.StandardCommand.Create</commandName>
+                  <buttonImportance>Normal</buttonImportance>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1753,6 +1786,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <commandName>Form.Item.ПользователиСписок.StandardCommand.Copy</commandName>
+                  <buttonImportance>Normal</buttonImportance>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1778,6 +1812,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <commandName>Form.Item.ПользователиСписок.StandardCommand.Change</commandName>
+                  <buttonImportance>Normal</buttonImportance>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1803,6 +1838,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <commandName>Form.Command.УстановитьПароль</commandName>
+                  <buttonImportance>Normal</buttonImportance>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1854,6 +1890,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <commandName>Form.Command.НазначитьГруппы</commandName>
+                  <buttonImportance>Normal</buttonImportance>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1879,6 +1916,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <commandName>Form.Command.ИзменитьВыделенные</commandName>
+                  <buttonImportance>Normal</buttonImportance>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1898,7 +1936,10 @@
               <footerHeight>1</footerHeight>
               <horizontalScrollBar>AutoUse</horizontalScrollBar>
               <verticalScrollBar>AutoUse</verticalScrollBar>
-              <useAlternationRowColor>true</useAlternationRowColor>
+              <horizontalLines>true</horizontalLines>
+              <verticalLines>true</verticalLines>
+              <horizontalLinesBWA>false</horizontalLinesBWA>
+              <verticalLinesBWA>false</verticalLinesBWA>
               <searchOnInput>Auto</searchOnInput>
               <initialListView>Auto</initialListView>
               <horizontalStretch>true</horizontalStretch>
@@ -1910,6 +1951,7 @@
               <rowsPicture xsi:type="core:PictureRef">
                 <picture>CommonPicture.СостоянияПользователей</picture>
               </rowsPicture>
+              <autoMaxCardHeight>true</autoMaxCardHeight>
               <extInfo xsi:type="form:DynamicListTableExtInfo">
                 <handlers>
                   <event>OnGetDataAtServer</event>
@@ -1949,6 +1991,7 @@
                 </extendedTooltip>
                 <type>UsualButton</type>
                 <commandName>Form.Command.ВыбратьПользователяКоманда</commandName>
+                <buttonImportance>Normal</buttonImportance>
                 <representation>Auto</representation>
                 <width>5</width>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1975,6 +2018,7 @@
                 </extendedTooltip>
                 <type>UsualButton</type>
                 <commandName>Form.Command.ОтменитьВыборПользователяИлиГруппы</commandName>
+                <buttonImportance>Normal</buttonImportance>
                 <representation>Auto</representation>
                 <width>5</width>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2001,6 +2045,7 @@
                 </extendedTooltip>
                 <type>UsualButton</type>
                 <commandName>Form.Command.ОчиститьСписокВыбранныхПользователейИГрупп</commandName>
+                <buttonImportance>Normal</buttonImportance>
                 <representation>Auto</representation>
                 <width>5</width>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2116,6 +2161,7 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>Vertical</group>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -2343,6 +2389,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Item.ПользователиСписок.StandardCommand.Create</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2368,6 +2415,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Item.ПользователиСписок.StandardCommand.Copy</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2393,6 +2441,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Item.ПользователиСписок.StandardCommand.Change</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2418,6 +2467,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.УстановитьПароль</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2469,6 +2519,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.НазначитьГруппы</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2494,6 +2545,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ИзменитьВыделенные</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2514,6 +2566,11 @@
           <footerHeight>1</footerHeight>
           <horizontalScrollBar>AutoUse</horizontalScrollBar>
           <verticalScrollBar>AutoUse</verticalScrollBar>
+          <horizontalLines>true</horizontalLines>
+          <verticalLines>true</verticalLines>
+          <horizontalLinesBWA>false</horizontalLinesBWA>
+          <verticalLinesBWA>false</verticalLinesBWA>
+          <useAlternationRowColorBWA>false</useAlternationRowColorBWA>
           <searchOnInput>Auto</searchOnInput>
           <initialListView>Auto</initialListView>
           <horizontalStretch>true</horizontalStretch>
@@ -2525,6 +2582,7 @@
           <rowsPicture xsi:type="core:PictureRef">
             <picture>CommonPicture.СостоянияПользователей</picture>
           </rowsPicture>
+          <autoMaxCardHeight>true</autoMaxCardHeight>
           <extInfo xsi:type="form:DynamicListTableExtInfo">
             <handlers>
               <event>OnGetDataAtServer</event>
@@ -2564,6 +2622,7 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.ВыбратьПользователяКоманда</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <width>5</width>
             <autoMaxWidth>true</autoMaxWidth>
@@ -2591,6 +2650,7 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.ОчиститьСписокВыбранныхПользователейИГрупп</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <width>5</width>
             <autoMaxWidth>true</autoMaxWidth>
@@ -2618,6 +2678,7 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.ОтменитьВыборПользователяИлиГруппы</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <width>5</width>
             <autoMaxWidth>true</autoMaxWidth>
@@ -2676,7 +2737,8 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>AlwaysHorizontal</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -2770,6 +2832,7 @@
             <quickChoice>true</quickChoice>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <autoCommandBar>
@@ -2889,7 +2952,10 @@
         <footerHeight>1</footerHeight>
         <horizontalScrollBar>AutoUse</horizontalScrollBar>
         <verticalScrollBar>AutoUse</verticalScrollBar>
-        <useAlternationRowColor>true</useAlternationRowColor>
+        <horizontalLines>true</horizontalLines>
+        <verticalLines>true</verticalLines>
+        <horizontalLinesBWA>false</horizontalLinesBWA>
+        <verticalLinesBWA>false</verticalLinesBWA>
         <autoInsertNewRow>true</autoInsertNewRow>
         <searchOnInput>Auto</searchOnInput>
         <initialListView>Auto</initialListView>
@@ -2901,6 +2967,7 @@
         <rowsPicture xsi:type="core:PictureRef">
           <picture>CommonPicture.СостоянияПользователей</picture>
         </rowsPicture>
+        <autoMaxCardHeight>true</autoMaxCardHeight>
         <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
       <visible>true</visible>
@@ -3570,6 +3637,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -3596,10 +3664,10 @@
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>AlwaysHorizontal</group>
       <behavior>Collapsible</behavior>
-      <controlRepresentation>Picture</controlRepresentation>
+      <controlRepresentation>Button</controlRepresentation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>true</showTitle>
+      <showTitle>auto</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -3653,6 +3721,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -3709,6 +3778,7 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -3757,6 +3827,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -3813,6 +3884,7 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -3861,6 +3933,7 @@
   <excludedCommands>Close</excludedCommands>
   <excludedCommands>Create</excludedCommands>
   <excludedCommands>Delete</excludedCommands>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
@@ -3869,7 +3942,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
     <value xsi:type="core:StringValue">
@@ -4245,6 +4318,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>НазначитьГруппы</name>
@@ -4271,6 +4345,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ЗавершитьИЗакрыть</name>
@@ -4292,6 +4367,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьГруппу</name>
@@ -4313,6 +4389,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьПользователяКоманда</name>
@@ -4334,6 +4411,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ОтменитьВыборПользователяИлиГруппы</name>
@@ -4355,6 +4433,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ОчиститьСписокВыбранныхПользователейИГрупп</name>
@@ -4376,6 +4455,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>СведенияОПользователях</name>
@@ -4400,6 +4480,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ИзменитьВыделенные</name>
@@ -4421,6 +4502,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>УстановитьПароль</name>
@@ -4438,6 +4520,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВставитьИзБуфераОбмена</name>
@@ -4463,6 +4546,7 @@
     </action>
     <representation>Picture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Выбрать</name>
@@ -4488,6 +4572,7 @@
     </action>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ЗаблокироватьНедействительныхПользователейВСистемеВзаимодействий</name>
@@ -4509,6 +4594,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ВыборГруппПользователей</name>

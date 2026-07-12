@@ -86,6 +86,7 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <textSize>Normal</textSize>
       <inputHint>
         <key>ru</key>
         <value>http://server/help</value>
@@ -192,6 +193,7 @@
             <value>ПереходПоСсылке</value>
           </value>
         </choiceList>
+        <orientation>Vertical</orientation>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -291,6 +293,7 @@
                     <value>СтандартныйСервис</value>
                   </value>
                 </choiceList>
+                <orientation>Vertical</orientation>
               </extInfo>
             </items>
             <items xsi:type="form:FormGroup">
@@ -347,6 +350,7 @@
                       <value>ВнешнийПочтовыйСервер</value>
                     </value>
                   </choiceList>
+                  <orientation>Vertical</orientation>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -388,6 +392,7 @@
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
+                  <textSize>Normal</textSize>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -469,6 +474,7 @@
                     <value>РучнаяНастройка</value>
                   </value>
                 </choiceList>
+                <orientation>Vertical</orientation>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -572,6 +578,7 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -629,6 +636,7 @@
                     <value>SSL</value>
                   </value>
                 </choiceList>
+                <orientation>Vertical</orientation>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -669,6 +677,7 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -741,6 +750,7 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -783,6 +793,7 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -851,6 +862,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
               <inputHint>
                 <key>ru</key>
                 <value>Имя отправителя почтовых сообщений</value>
@@ -881,10 +893,10 @@
             <group>HorizontalIfPossible</group>
             <behavior>Collapsible</behavior>
             <collapsed>true</collapsed>
-            <controlRepresentation>Picture</controlRepresentation>
+            <controlRepresentation>Button</controlRepresentation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -942,6 +954,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <commandName>Form.Command.ИмяПользователя</commandName>
+                  <buttonImportance>Normal</buttonImportance>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -967,6 +980,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <commandName>Form.Command.НаименованиеКонфигурации</commandName>
+                  <buttonImportance>Normal</buttonImportance>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -992,6 +1006,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <commandName>Form.Command.КодПодтверждения</commandName>
+                  <buttonImportance>Normal</buttonImportance>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1020,6 +1035,7 @@
                 <type>Popup</type>
                 <extInfo xsi:type="form:PopupGroupExtInfo">
                   <representation>Auto</representation>
+                  <importance>Normal</importance>
                 </extInfo>
               </items>
               <autoFill>true</autoFill>
@@ -1036,6 +1052,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormGroup">
@@ -1063,6 +1080,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>Form.Command.ИмяПользователя</commandName>
+                <buttonImportance>Normal</buttonImportance>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1088,6 +1106,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>Form.Command.НаименованиеКонфигурации</commandName>
+                <buttonImportance>Normal</buttonImportance>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1113,6 +1132,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>Form.Command.КодПодтверждения</commandName>
+                <buttonImportance>Normal</buttonImportance>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1141,6 +1161,7 @@
               <type>Popup</type>
               <extInfo xsi:type="form:PopupGroupExtInfo">
                 <representation>Auto</representation>
+                <importance>Normal</importance>
               </extInfo>
             </items>
             <items xsi:type="form:FormGroup">
@@ -1240,6 +1261,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <commandName>Form.Command.ИмяПользователя</commandName>
+                  <buttonImportance>Normal</buttonImportance>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1265,6 +1287,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <commandName>Form.Command.НаименованиеКонфигурации</commandName>
+                  <buttonImportance>Normal</buttonImportance>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1290,6 +1313,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <commandName>Form.Command.КодПодтверждения</commandName>
+                  <buttonImportance>Normal</buttonImportance>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1318,6 +1342,7 @@
                 <type>Popup</type>
                 <extInfo xsi:type="form:PopupGroupExtInfo">
                   <representation>Auto</representation>
+                  <importance>Normal</importance>
                 </extInfo>
               </items>
               <autoFill>true</autoFill>
@@ -1359,10 +1384,10 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
             <behavior>Collapsible</behavior>
-            <controlRepresentation>Picture</controlRepresentation>
+            <controlRepresentation>Button</controlRepresentation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -1409,6 +1434,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormGroup">
@@ -1453,6 +1479,7 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <items xsi:type="form:Decoration">
@@ -1557,6 +1584,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1582,10 +1610,10 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
             <behavior>Collapsible</behavior>
-            <controlRepresentation>Picture</controlRepresentation>
+            <controlRepresentation>Button</controlRepresentation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -1612,7 +1640,8 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>Vertical</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -1650,6 +1679,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
+          <markRequiredComplete>true</markRequiredComplete>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -1662,6 +1692,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
             <inputHint>
               <key>ru</key>
               <value>http://server/password</value>
@@ -1690,7 +1721,8 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>Vertical</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1795,6 +1827,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.Записать</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1819,13 +1852,14 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ОтображатьГиперссылкуПомощи</name>
@@ -2259,6 +2293,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ИмяПользователя</name>
@@ -2280,6 +2315,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>НаименованиеКонфигурации</name>
@@ -2297,6 +2333,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>КодПодтверждения</name>
@@ -2318,6 +2355,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Записать</name>
@@ -2340,6 +2378,7 @@
     </action>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
