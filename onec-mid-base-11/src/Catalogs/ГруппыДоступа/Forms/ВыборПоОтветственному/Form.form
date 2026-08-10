@@ -95,7 +95,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Auto</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -106,6 +106,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <commandBarLocation>None</commandBarLocation>
@@ -216,7 +217,6 @@
     <verticalScrollBar>AutoUse</verticalScrollBar>
     <horizontalLines>true</horizontalLines>
     <verticalLines>true</verticalLines>
-    <useAlternationRowColor>true</useAlternationRowColor>
     <searchOnInput>Auto</searchOnInput>
     <initialListView>Auto</initialListView>
     <horizontalStretch>true</horizontalStretch>
@@ -229,6 +229,7 @@
     <rowsPicture xsi:type="core:PictureRef">
       <picture>CommonPicture.ПиктограммыЭлементов</picture>
     </rowsPicture>
+    <autoMaxCardHeight>true</autoMaxCardHeight>
   </items>
   <items xsi:type="form:FormField">
     <name>ГруппыДоступаКомментарий</name>
@@ -270,6 +271,7 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -340,14 +342,14 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ГруппыДоступа</name>
@@ -467,6 +469,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>Выбранные</name>

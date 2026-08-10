@@ -49,6 +49,7 @@
         <borderColor xsi:type="core:ColorRef">
           <color>Style.BorderColor</color>
         </borderColor>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -95,6 +96,7 @@
         <borderColor xsi:type="core:ColorRef">
           <color>Style.BorderColor</color>
         </borderColor>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -169,6 +171,7 @@
         <borderColor xsi:type="core:ColorRef">
           <color>Style.BorderColor</color>
         </borderColor>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -217,6 +220,7 @@
           <borderColor xsi:type="core:ColorRef">
             <color>Style.BorderColor</color>
           </borderColor>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -368,6 +372,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -416,6 +421,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -463,6 +469,7 @@
         <borderColor xsi:type="core:ColorRef">
           <color>Style.BorderColor</color>
         </borderColor>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -504,6 +511,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -581,6 +589,7 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -661,6 +670,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -705,6 +715,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -746,6 +757,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -815,6 +827,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -845,6 +858,7 @@
     </extInfo>
   </items>
   <commandBarLocation>Top</commandBarLocation>
+  <showCommandBar>true</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -892,6 +906,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.СтандартнаяЗаписать</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -916,6 +931,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.СтандартнаяПеречитать</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -943,6 +959,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.Открыть</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -977,6 +994,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.СохранитьКак</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1002,6 +1020,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.Удалить</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1016,13 +1035,14 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ТомПолныйПуть</name>
@@ -1353,6 +1373,7 @@
     </action>
     <representation>Text</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>СохранитьКак</name>
@@ -1378,6 +1399,7 @@
     </action>
     <representation>Text</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>СтандартнаяЗаписать</name>
@@ -1402,6 +1424,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>СтандартнаяЗаписатьИЗакрыть</name>
@@ -1426,6 +1449,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>СтандартнаяПеречитать</name>
@@ -1450,6 +1474,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Удалить</name>
@@ -1474,6 +1499,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>Ключ</name>

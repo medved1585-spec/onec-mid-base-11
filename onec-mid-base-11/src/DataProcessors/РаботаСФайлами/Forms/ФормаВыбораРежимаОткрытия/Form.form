@@ -63,6 +63,7 @@
             <value>1</value>
           </value>
         </choiceList>
+        <orientation>Vertical</orientation>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -151,6 +152,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.ОткрытьФайл</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -182,6 +184,7 @@
     </extInfo>
   </items>
   <commandBarLocation>Bottom</commandBarLocation>
+  <showCommandBar>true</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -241,6 +244,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.Отмена</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -267,6 +271,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Help</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -279,13 +284,14 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>КакОткрывать</name>
@@ -360,6 +366,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Отмена</name>
@@ -381,6 +388,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

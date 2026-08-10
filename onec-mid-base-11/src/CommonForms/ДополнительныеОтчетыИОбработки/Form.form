@@ -59,7 +59,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
-          <editMode>EnterOnInput</editMode>
+          <editMode>Auto</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -70,6 +70,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <commandBarLocation>None</commandBarLocation>
@@ -179,7 +180,10 @@
         <footerHeight>1</footerHeight>
         <horizontalScrollBar>AutoUse</horizontalScrollBar>
         <verticalScrollBar>AutoUse</verticalScrollBar>
+        <horizontalLines>true</horizontalLines>
         <verticalLines>true</verticalLines>
+        <horizontalLinesBWA>false</horizontalLinesBWA>
+        <useAlternationRowColorBWA>false</useAlternationRowColorBWA>
         <autoInsertNewRow>true</autoInsertNewRow>
         <searchOnInput>Auto</searchOnInput>
         <initialListView>Auto</initialListView>
@@ -188,6 +192,7 @@
         <enableStartDrag>true</enableStartDrag>
         <enableDrag>true</enableDrag>
         <searchStringLocation>Top</searchStringLocation>
+        <autoMaxCardHeight>true</autoMaxCardHeight>
         <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
       <visible>true</visible>
@@ -212,7 +217,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -315,7 +321,8 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>HorizontalIfPossible</group>
         <verticalAlign>Center</verticalAlign>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -366,6 +373,7 @@
       </extendedTooltip>
       <type>Hyperlink</type>
       <commandName>Form.Command.НастроитьСписок</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -423,6 +431,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.StandardCommand.Cancel</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -482,6 +491,7 @@
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
+  <showCommandBar>false</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -496,14 +506,14 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <excludedCommands>CustomizeForm</excludedCommands>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ТаблицаКоманд</name>
@@ -802,6 +812,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>НастроитьСписок</name>
@@ -826,6 +837,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ОтменитьВыполнениеОбработки</name>
@@ -847,6 +859,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ОбъектыНазначения</name>

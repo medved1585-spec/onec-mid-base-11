@@ -190,6 +190,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ПродолжитьОбновление</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
@@ -250,6 +251,7 @@
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
+  <showCommandBar>false</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -278,7 +280,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
@@ -314,6 +316,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПродолжитьОбновление</name>
@@ -335,6 +338,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

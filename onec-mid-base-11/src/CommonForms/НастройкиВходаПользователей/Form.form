@@ -253,6 +253,7 @@
                 <minValue xsi:type="core:NumberValue">
                   <value>1</value>
                 </minValue>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <items xsi:type="form:Decoration">
@@ -437,6 +438,7 @@
                 <minValue xsi:type="core:NumberValue">
                   <value>1</value>
                 </minValue>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <items xsi:type="form:Decoration">
@@ -587,6 +589,7 @@
                 <minValue xsi:type="core:NumberValue">
                   <value>1</value>
                 </minValue>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <items xsi:type="form:Decoration">
@@ -732,6 +735,7 @@
                 <minValue xsi:type="core:NumberValue">
                   <value>1</value>
                 </minValue>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -844,6 +848,7 @@
                 <minValue xsi:type="core:NumberValue">
                   <value>1</value>
                 </minValue>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <items xsi:type="form:Decoration">
@@ -1029,6 +1034,7 @@
               <minValue xsi:type="core:NumberValue">
                 <value>1</value>
               </minValue>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:Decoration">
@@ -1142,7 +1148,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -1326,6 +1333,7 @@
                 <minValue xsi:type="core:NumberValue">
                   <value>1</value>
                 </minValue>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <items xsi:type="form:Decoration">
@@ -1510,6 +1518,7 @@
                 <minValue xsi:type="core:NumberValue">
                   <value>1</value>
                 </minValue>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <items xsi:type="form:Decoration">
@@ -1660,6 +1669,7 @@
                 <minValue xsi:type="core:NumberValue">
                   <value>1</value>
                 </minValue>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <items xsi:type="form:Decoration">
@@ -1805,6 +1815,7 @@
                 <minValue xsi:type="core:NumberValue">
                   <value>1</value>
                 </minValue>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -1917,6 +1928,7 @@
                 <minValue xsi:type="core:NumberValue">
                   <value>1</value>
                 </minValue>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <items xsi:type="form:Decoration">
@@ -2102,6 +2114,7 @@
               <minValue xsi:type="core:NumberValue">
                 <value>1</value>
               </minValue>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:Decoration">
@@ -2166,6 +2179,7 @@
           </extInfo>
         </items>
         <visible>true</visible>
+        <enabled>false</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
@@ -2214,7 +2228,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -2300,6 +2315,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -2409,6 +2425,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <items xsi:type="form:Decoration">
@@ -2559,6 +2576,7 @@
                 <value>СкрытоИВыключеноДляВсехПользователей</value>
               </value>
             </choiceList>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <items xsi:type="form:Decoration">
@@ -2690,7 +2708,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -2766,6 +2785,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Help</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -2778,14 +2798,14 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>МинимальнаяДлинаПароля</name>
@@ -3469,6 +3489,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПроверитьОтправкуКодаПодтверждения</name>
@@ -3486,6 +3507,7 @@
       <common>true</common>
     </use>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПроверитьОтправкуПриглашенияНаВход</name>
@@ -3503,6 +3525,7 @@
       <common>true</common>
     </use>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ПоказатьНастройкиВнешнихПользователей</name>

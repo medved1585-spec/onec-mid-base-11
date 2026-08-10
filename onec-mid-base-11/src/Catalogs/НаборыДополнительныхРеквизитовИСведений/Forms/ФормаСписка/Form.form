@@ -75,6 +75,7 @@
       <backColor xsi:type="core:ColorRef">
         <color>Style.ФонУправляющегоПоля</color>
       </backColor>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -156,6 +157,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
             <inputHint>
               <key>ru</key>
               <value>Поле поиска</value>
@@ -229,6 +231,7 @@
               <borderColor xsi:type="core:ColorRef">
                 <color>Style.BorderColor</color>
               </borderColor>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -382,7 +385,10 @@
           <footerHeight>1</footerHeight>
           <horizontalScrollBar>AutoUse</horizontalScrollBar>
           <verticalScrollBar>AutoUse</verticalScrollBar>
+          <horizontalLines>true</horizontalLines>
           <verticalLines>true</verticalLines>
+          <horizontalLinesBWA>false</horizontalLinesBWA>
+          <useAlternationRowColorBWA>false</useAlternationRowColorBWA>
           <searchOnInput>Auto</searchOnInput>
           <initialListView>Auto</initialListView>
           <horizontalStretch>true</horizontalStretch>
@@ -398,6 +404,7 @@
             <color>Style.BorderColor</color>
           </borderColor>
           <currentRowUse>SelectionPresentation</currentRowUse>
+          <autoMaxCardHeight>true</autoMaxCardHeight>
           <extInfo xsi:type="form:DynamicListTableExtInfo">
             <handlers>
               <event>OnGetDataAtServer</event>
@@ -435,7 +442,8 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>Vertical</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -602,7 +610,10 @@
           <footerHeight>1</footerHeight>
           <horizontalScrollBar>AutoUse</horizontalScrollBar>
           <verticalScrollBar>AutoUse</verticalScrollBar>
-          <useAlternationRowColor>true</useAlternationRowColor>
+          <horizontalLines>true</horizontalLines>
+          <verticalLines>true</verticalLines>
+          <horizontalLinesBWA>false</horizontalLinesBWA>
+          <verticalLinesBWA>false</verticalLinesBWA>
           <searchOnInput>Auto</searchOnInput>
           <initialListView>Auto</initialListView>
           <horizontalStretch>true</horizontalStretch>
@@ -615,6 +626,7 @@
             <picture>CommonPicture.ПиктограммыЭлементов</picture>
           </rowsPicture>
           <currentRowUse>SelectionPresentation</currentRowUse>
+          <autoMaxCardHeight>true</autoMaxCardHeight>
           <extInfo xsi:type="form:DynamicListTableExtInfo">
             <autoRefreshPeriod>60</autoRefreshPeriod>
             <period>
@@ -647,7 +659,8 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>Vertical</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -726,7 +739,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Auto</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -737,6 +750,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -770,7 +784,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Auto</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -781,6 +795,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -813,7 +828,7 @@
         </contextMenu>
         <type>CheckBoxField</type>
         <readOnly>true</readOnly>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Auto</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -849,7 +864,7 @@
         </contextMenu>
         <type>CheckBoxField</type>
         <readOnly>true</readOnly>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Auto</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -885,7 +900,7 @@
         </contextMenu>
         <type>CheckBoxField</type>
         <readOnly>true</readOnly>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Auto</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -916,7 +931,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Auto</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -927,6 +942,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <autoCommandBar>
@@ -1068,6 +1084,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.Создать</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1093,6 +1110,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.ДобавитьИзНабора</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1124,6 +1142,7 @@
               <picture>StdPicture.CreateListItem</picture>
             </picture>
             <representation>Auto</representation>
+            <importance>Normal</importance>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -1148,6 +1167,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.Скопировать</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1173,6 +1193,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.Изменить</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1198,6 +1219,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.ПометитьНаУдаление</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1244,6 +1266,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.КопироватьРеквизит</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1269,6 +1292,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.ВставитьРеквизит</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1288,7 +1312,6 @@
       <verticalScrollBar>AutoUse</verticalScrollBar>
       <horizontalLines>true</horizontalLines>
       <verticalLines>true</verticalLines>
-      <useAlternationRowColor>true</useAlternationRowColor>
       <autoInsertNewRow>true</autoInsertNewRow>
       <searchOnInput>Auto</searchOnInput>
       <initialListView>Auto</initialListView>
@@ -1306,6 +1329,7 @@
         <color>Style.FormBackColor</color>
       </backColor>
       <searchStringLocation>Top</searchStringLocation>
+      <autoMaxCardHeight>true</autoMaxCardHeight>
       <rowFilter xsi:type="core:UndefinedValue"/>
     </items>
     <visible>true</visible>
@@ -1375,6 +1399,7 @@
     <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
   </items>
   <commandBarLocation>Top</commandBarLocation>
+  <showCommandBar>true</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -1400,6 +1425,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.Создать</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1425,6 +1451,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ДобавитьИзНабора</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1455,6 +1482,7 @@
         <picture xsi:type="core:PictureRef">
           <picture>StdPicture.CreateListItem</picture>
         </picture>
+        <importance>Normal</importance>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -1479,6 +1507,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.Скопировать</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1505,6 +1534,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.Изменить</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1531,6 +1561,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ПометитьНаУдаление</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1581,6 +1612,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ПереместитьВверх</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1607,6 +1639,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ПереместитьВниз</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1654,6 +1687,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.ПоискИУдалениеДублей</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1683,6 +1717,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.КопироватьРеквизит</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1708,6 +1743,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ВставитьРеквизит</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1754,6 +1790,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.CustomizeForm</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1779,6 +1816,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Help</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1798,6 +1836,7 @@
   <excludedCommands>Change</excludedCommands>
   <excludedCommands>Find</excludedCommands>
   <excludedCommands>FindByCurrentValue</excludedCommands>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1805,7 +1844,7 @@
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <verticalScroll>UseIfNecessary</verticalScroll>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>НаборыСвойств</name>
@@ -2453,6 +2492,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПереместитьВниз</name>
@@ -2477,6 +2517,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Скопировать</name>
@@ -2502,6 +2543,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Изменить</name>
@@ -2528,6 +2570,7 @@
     </action>
     <representation>Text</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПометитьНаУдаление</name>
@@ -2553,6 +2596,7 @@
     </action>
     <representation>Picture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Создать</name>
@@ -2575,6 +2619,7 @@
     </action>
     <representation>Text</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ДобавитьИзНабора</name>
@@ -2596,6 +2641,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПоискИУдалениеДублей</name>
@@ -2617,6 +2663,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>КопироватьРеквизит</name>
@@ -2638,6 +2685,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВставитьРеквизит</name>
@@ -2659,6 +2707,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ТекущийНабор</name>

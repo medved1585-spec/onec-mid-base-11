@@ -94,6 +94,7 @@
             <value>Устаревшие</value>
           </value>
         </choiceList>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -148,6 +149,7 @@
         <clearButton>true</clearButton>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -258,6 +260,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Create</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -283,6 +286,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.CreateFolder</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -308,6 +312,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Copy</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -333,6 +338,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Change</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -358,6 +364,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.SetDeletionMark</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -383,6 +390,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.Обновить</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -435,6 +443,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Help</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -588,6 +597,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -740,7 +750,6 @@
     <verticalScrollBar>AutoUse</verticalScrollBar>
     <horizontalLines>true</horizontalLines>
     <verticalLines>true</verticalLines>
-    <useAlternationRowColor>true</useAlternationRowColor>
     <searchOnInput>Auto</searchOnInput>
     <initialListView>Auto</initialListView>
     <horizontalStretch>true</horizontalStretch>
@@ -750,6 +759,7 @@
     <rowPictureDataPath xsi:type="form:DataPath">
       <segments>Список.DefaultPicture</segments>
     </rowPictureDataPath>
+    <autoMaxCardHeight>true</autoMaxCardHeight>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
@@ -773,6 +783,7 @@
   </handlers>
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>Refresh</excludedCommands>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -780,7 +791,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Список</name>
@@ -882,6 +893,7 @@
     </action>
     <representation>Text</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

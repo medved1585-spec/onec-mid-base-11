@@ -214,6 +214,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ЗаполнитьИзПользователяИБ</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -461,6 +462,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.ВыбратьФотографию</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -486,6 +488,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.ОчиститьФотографию</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -573,6 +576,7 @@
             <borderColor xsi:type="core:ColorRef">
               <color>Style.BorderColor</color>
             </borderColor>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -680,6 +684,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -720,6 +725,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1160,6 +1166,7 @@
         </extendedTooltip>
         <type>Hyperlink</type>
         <commandName>Form.Command.ИзменитьОграничениеНаВходВПрограмму</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1307,6 +1314,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>InputField</type>
+            <markRequiredComplete>true</markRequiredComplete>
             <editMode>Enter</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -1319,6 +1327,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1402,6 +1411,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:Button">
@@ -1424,6 +1434,7 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.КомандаКонтактнаяИнформацияПолеEmailПользователя</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1512,6 +1523,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:Button">
@@ -1534,6 +1546,7 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.КомандаКонтактнаяИнформацияПолеТелефонПользователя</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1743,6 +1756,7 @@
                     </extendedTooltip>
                     <type>UsualButton</type>
                     <commandName>Form.Command.СменитьПароль</commandName>
+                    <buttonImportance>Normal</buttonImportance>
                     <representation>Auto</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -2294,6 +2308,7 @@
                     <borderColor xsi:type="core:ColorRef">
                       <color>Style.BorderColor</color>
                     </borderColor>
+                    <textSize>Normal</textSize>
                   </extInfo>
                 </items>
                 <visible>true</visible>
@@ -2458,6 +2473,7 @@
               <borderColor xsi:type="core:ColorRef">
                 <color>Style.BorderColor</color>
               </borderColor>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -2507,6 +2523,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -2590,7 +2607,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -2679,7 +2697,7 @@
             </contextMenu>
             <type>InputField</type>
             <readOnly>true</readOnly>
-            <editMode>EnterOnInput</editMode>
+            <editMode>Auto</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
@@ -2690,6 +2708,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -2714,7 +2733,8 @@
           <type>ColumnGroup</type>
           <extInfo xsi:type="form:ColumnGroupExtInfo">
             <group>InCell</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
+            <showInCard>true</showInCard>
           </extInfo>
         </items>
         <autoCommandBar>
@@ -2743,6 +2763,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ВключитьРоли</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2769,6 +2790,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ИсключитьРоли</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2818,6 +2840,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.ПоказатьТолькоВыбранныеРоли</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2843,6 +2866,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.ГруппировкаРолейПоПодсистемам</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3005,7 +3029,6 @@
         <verticalScrollBar>AutoUse</verticalScrollBar>
         <horizontalLines>true</horizontalLines>
         <verticalLines>true</verticalLines>
-        <useAlternationRowColor>true</useAlternationRowColor>
         <autoInsertNewRow>true</autoInsertNewRow>
         <searchOnInput>Auto</searchOnInput>
         <initialListView>Auto</initialListView>
@@ -3020,6 +3043,7 @@
         <rowsPicture xsi:type="core:PictureRef">
           <picture>CommonPicture.ПиктограммыЭлементов</picture>
         </rowsPicture>
+        <autoMaxCardHeight>true</autoMaxCardHeight>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -3043,7 +3067,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -3071,7 +3096,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -3099,7 +3125,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -3143,6 +3170,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -3167,7 +3195,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -3275,6 +3304,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.ВыбратьФотографию</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3301,6 +3331,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.ОчиститьФотографию</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3416,6 +3447,7 @@
           <picture>CommonPicture.Отчеты</picture>
         </picture>
         <representation>PictureAndText</representation>
+        <importance>Normal</importance>
       </extInfo>
     </items>
     <items xsi:type="form:Button">
@@ -3437,6 +3469,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Help</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3470,6 +3503,7 @@
     <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
   </handlers>
   <excludedCommands>WriteAndClose</excludedCommands>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
@@ -3478,7 +3512,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
@@ -4621,6 +4655,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ИсключитьРоли</name>
@@ -4646,6 +4681,7 @@
     </action>
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВключитьРоли</name>
@@ -4671,6 +4707,7 @@
     </action>
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ЗаполнитьИзПользователяИБ</name>
@@ -4697,6 +4734,7 @@
     <representation>TextPicture</representation>
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ГруппировкаРолейПоПодсистемам</name>
@@ -4722,6 +4760,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>СменитьПароль</name>
@@ -4739,6 +4778,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ИзменитьОграничениеНаВходВПрограмму</name>
@@ -4756,6 +4796,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ЗаписатьИЗакрыть</name>
@@ -4777,6 +4818,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ОчиститьФотографию</name>
@@ -4800,6 +4842,7 @@
     <representation>Text</representation>
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьФотографию</name>
@@ -4817,6 +4860,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>КомандаКонтактнаяИнформацияПолеEmailПользователя</name>
@@ -4842,6 +4886,7 @@
     </action>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>КомандаКонтактнаяИнформацияПолеТелефонПользователя</name>
@@ -4867,6 +4912,7 @@
     </action>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ГруппаНовогоПользователя</name>

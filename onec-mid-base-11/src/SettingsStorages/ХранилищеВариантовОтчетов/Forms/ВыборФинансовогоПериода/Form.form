@@ -30,6 +30,7 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ПерейтиНаГодНазад</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <width>6</width>
         <autoMaxWidth>true</autoMaxWidth>
@@ -167,6 +168,7 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.ПерейтиНаГодВперед</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <width>6</width>
       <autoMaxWidth>true</autoMaxWidth>
@@ -236,6 +238,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц1</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -264,6 +267,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц2</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -292,6 +296,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц3</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -349,6 +354,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц4</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -377,6 +383,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц5</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -405,6 +412,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц6</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -462,6 +470,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц7</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -490,6 +499,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц8</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -518,6 +528,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц9</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -575,6 +586,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц10</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -603,6 +615,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц11</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -631,6 +644,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц12</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -717,6 +731,7 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьКвартал1</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -748,6 +763,7 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьКвартал2</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -779,6 +795,7 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьКвартал3</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -810,6 +827,7 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьКвартал4</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -874,6 +892,7 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьДень</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -906,6 +925,7 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьПолугодие</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -934,6 +954,7 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.Выбрать9Месяцев</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -962,6 +983,7 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьГод</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1050,6 +1072,7 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.ОчиститьПериод</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1077,6 +1100,7 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.ПерейтиКСтандартномуВариантуПериода</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1114,6 +1138,7 @@
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
+  <showCommandBar>false</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -1124,7 +1149,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1132,7 +1157,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>НачалоПериода</name>
@@ -1276,6 +1301,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПерейтиНаГодВперед</name>
@@ -1297,6 +1323,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц1</name>
@@ -1318,6 +1345,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц2</name>
@@ -1339,6 +1367,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц3</name>
@@ -1360,6 +1389,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц4</name>
@@ -1381,6 +1411,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц5</name>
@@ -1402,6 +1433,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц6</name>
@@ -1423,6 +1455,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц7</name>
@@ -1444,6 +1477,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц8</name>
@@ -1465,6 +1499,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц9</name>
@@ -1486,6 +1521,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц10</name>
@@ -1507,6 +1543,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц11</name>
@@ -1528,6 +1565,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц12</name>
@@ -1549,6 +1587,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьКвартал1</name>
@@ -1570,6 +1609,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьКвартал2</name>
@@ -1591,6 +1631,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьКвартал3</name>
@@ -1612,6 +1653,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьКвартал4</name>
@@ -1633,6 +1675,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьПолугодие</name>
@@ -1654,6 +1697,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Выбрать9Месяцев</name>
@@ -1675,6 +1719,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьГод</name>
@@ -1696,6 +1741,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьДень</name>
@@ -1717,6 +1763,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ОчиститьПериод</name>
@@ -1738,6 +1785,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПерейтиКСтандартномуВариантуПериода</name>
@@ -1760,6 +1808,7 @@
     </action>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>НачалоПериода</name>

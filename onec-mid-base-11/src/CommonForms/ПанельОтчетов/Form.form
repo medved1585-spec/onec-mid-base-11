@@ -57,6 +57,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
         <inputHint>
           <key>ru</key>
           <value>Наименование, поле или автор отчета</value>
@@ -83,6 +84,7 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.ВыполнитьПоиск</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -194,6 +196,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.Настроить</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <width>12</width>
           <autoMaxWidth>true</autoMaxWidth>
@@ -221,6 +224,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.Обновить</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -247,6 +251,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.ВсеОтчеты</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -276,6 +281,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.СнимкиОтчетов</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -325,6 +331,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.СброситьМоиНастройки</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -372,6 +379,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.StandardCommand.CustomizeForm</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -398,6 +406,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.StandardCommand.Help</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -654,7 +663,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>AlwaysHorizontal</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -1568,7 +1578,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1618,6 +1629,7 @@
       </extendedTooltip>
       <type>Hyperlink</type>
       <commandName>Form.Command.ВсеОтчеты</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1756,13 +1768,14 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
     <value xsi:type="core:StringValue">
@@ -2559,6 +2572,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПереместитьВБыстрыйДоступ</name>
@@ -2583,6 +2597,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>УбратьИзБыстрогоДоступа</name>
@@ -2607,6 +2622,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Изменить</name>
@@ -2631,6 +2647,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>СброситьМоиНастройки</name>
@@ -2653,6 +2670,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВсеОтчеты</name>
@@ -2674,6 +2692,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Обновить</name>
@@ -2699,6 +2718,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыполнитьПоиск</name>
@@ -2724,6 +2744,7 @@
     </action>
     <representation>Picture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>СнимкиОтчетов</name>
@@ -2749,6 +2770,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ПутьКПодсистеме</name>

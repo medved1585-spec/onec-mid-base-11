@@ -82,6 +82,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.ДобавитьКомментарий</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -134,6 +135,7 @@
           <picture>StdPicture.CreateListItem</picture>
         </picture>
         <representation>Auto</representation>
+        <importance>Normal</importance>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -160,6 +162,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ПроверитьЗаполнениеАдреса</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -184,6 +187,7 @@
         </extendedTooltip>
         <type>CommandBarHyperlink</type>
         <commandName>Form.Command.АдресныйКлассификаторУстарел</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -233,6 +237,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.МуниципальноеДеление</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -259,6 +264,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.АдминистративноТерриториальноеДеление</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -285,6 +291,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.АдресВСвободнойФорме</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -335,6 +342,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ОчиститьАдрес</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -361,6 +369,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ЗаполнитьПоПочтовомуИндексу</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -411,6 +420,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ИсторияИзменений</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -437,6 +447,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.АдресНаЯндексКарты</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -463,6 +474,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.АдресНаGoogleMaps</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -513,6 +525,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ЗагрузитьКлассификатор</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -539,6 +552,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.StandardCommand.CustomizeForm</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -565,6 +579,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.StandardCommand.Help</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -788,6 +803,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
           <autoShowOpenButtonMode>Always</autoShowOpenButtonMode>
         </extInfo>
       </items>
@@ -879,6 +895,7 @@
       </extendedTooltip>
       <type>Hyperlink</type>
       <commandName>Form.Command.ИсторияИзменений</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -1016,6 +1033,7 @@
                     </value>
                   </value>
                 </choiceParameters>
+                <textSize>Normal</textSize>
                 <inputHint>
                   <key>ru</key>
                   <value>Введите первые буквы названия страны</value>
@@ -1087,6 +1105,7 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <textSize>Normal</textSize>
                 <inputHint>
                   <key>ru</key>
                   <value>Введите первые буквы названия населенного пункта</value>
@@ -1157,6 +1176,7 @@
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
                 <editTextUpdate>OnValueChange</editTextUpdate>
+                <textSize>Normal</textSize>
                 <inputHint>
                   <key>ru</key>
                   <value>Введите первые буквы названия улицы</value>
@@ -1252,6 +1272,7 @@
                     <choiceListButton>false</choiceListButton>
                     <listChoiceMode>true</listChoiceMode>
                     <typeDomainEnabled>true</typeDomainEnabled>
+                    <textSize>Normal</textSize>
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormField">
@@ -1316,6 +1337,7 @@
                     <typeDomainEnabled>true</typeDomainEnabled>
                     <textEdit>true</textEdit>
                     <editTextUpdate>OnValueChange</editTextUpdate>
+                    <textSize>Normal</textSize>
                   </extInfo>
                 </items>
                 <visible>true</visible>
@@ -1400,6 +1422,7 @@
                     <quickChoice>true</quickChoice>
                     <listChoiceMode>true</listChoiceMode>
                     <typeDomainEnabled>true</typeDomainEnabled>
+                    <textSize>Normal</textSize>
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormField">
@@ -1463,6 +1486,7 @@
                     <quickChoice>true</quickChoice>
                     <typeDomainEnabled>true</typeDomainEnabled>
                     <textEdit>true</textEdit>
+                    <textSize>Normal</textSize>
                     <autoShowOpenButtonMode>Always</autoShowOpenButtonMode>
                     <spellCheckingOnTextInput>DontUse</spellCheckingOnTextInput>
                   </extInfo>
@@ -1579,6 +1603,7 @@
                     <quickChoice>true</quickChoice>
                     <typeDomainEnabled>true</typeDomainEnabled>
                     <textEdit>true</textEdit>
+                    <textSize>Normal</textSize>
                     <inputHint>
                       <key>ru</key>
                       <value>Другое</value>
@@ -1633,6 +1658,7 @@
                     <chooseType>true</chooseType>
                     <typeDomainEnabled>true</typeDomainEnabled>
                     <textEdit>true</textEdit>
+                    <textSize>Normal</textSize>
                   </extInfo>
                 </items>
                 <visible>true</visible>
@@ -1871,6 +1897,7 @@
                       <chooseType>true</chooseType>
                       <typeDomainEnabled>true</typeDomainEnabled>
                       <textEdit>true</textEdit>
+                      <textSize>Normal</textSize>
                     </extInfo>
                   </items>
                   <items xsi:type="form:Button">
@@ -1897,6 +1924,7 @@
                     </extendedTooltip>
                     <type>Hyperlink</type>
                     <commandName>Form.Command.ПодключитьИнтернетПоддержку</commandName>
+                    <buttonImportance>Normal</buttonImportance>
                     <representation>Auto</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -1954,7 +1982,7 @@
                 <extInfo xsi:type="form:UsualGroupExtInfo">
                   <showLeftMargin>true</showLeftMargin>
                   <united>true</united>
-                  <showTitle>true</showTitle>
+                  <showTitle>auto</showTitle>
                   <throughAlign>Auto</throughAlign>
                   <currentRowUse>Auto</currentRowUse>
                 </extInfo>
@@ -2017,7 +2045,8 @@
                   <type>Page</type>
                   <extInfo xsi:type="form:PageGroupExtInfo">
                     <group>Vertical</group>
-                    <showTitle>true</showTitle>
+                    <showTitle>auto</showTitle>
+                    <scrollOnCompress>false</scrollOnCompress>
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormGroup">
@@ -2081,7 +2110,8 @@
                   <type>Page</type>
                   <extInfo xsi:type="form:PageGroupExtInfo">
                     <group>Vertical</group>
-                    <showTitle>true</showTitle>
+                    <showTitle>auto</showTitle>
+                    <scrollOnCompress>false</scrollOnCompress>
                   </extInfo>
                 </items>
                 <visible>true</visible>
@@ -2250,6 +2280,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <commandName>Form.Command.ЗаполнитьПоПочтовомуИндексу</commandName>
+                  <buttonImportance>Normal</buttonImportance>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -2287,6 +2318,7 @@
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
                 <editTextUpdate>OnValueChange</editTextUpdate>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -2333,6 +2365,7 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -2422,6 +2455,7 @@
                       </extInfo>
                     </extendedTooltip>
                     <commandName>Form.Command.АдресВСвободнойФорме</commandName>
+                    <buttonImportance>Normal</buttonImportance>
                     <representation>Auto</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -2463,6 +2497,7 @@
                 <multiLine>true</multiLine>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -2514,7 +2549,8 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
+            <scrollOnCompress>false</scrollOnCompress>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -2617,6 +2653,7 @@
                       </value>
                     </value>
                   </choiceParameters>
+                  <textSize>Normal</textSize>
                   <inputHint>
                     <key>ru</key>
                     <value>Введите первые буквы названия страны</value>
@@ -2722,6 +2759,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -2746,6 +2784,7 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
+            <scrollOnCompress>false</scrollOnCompress>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -2794,7 +2833,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -2842,6 +2882,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -2869,7 +2910,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -2972,7 +3014,8 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>Vertical</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -3044,7 +3087,8 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>Vertical</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -3102,7 +3146,8 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>Vertical</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -3202,7 +3247,7 @@
         <behavior>PopUp</behavior>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
@@ -3258,6 +3303,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.КомандаОтмена</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -3345,7 +3391,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <width>60</width>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveDataInSettings>UseList</saveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
@@ -3354,7 +3400,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
     <value xsi:type="core:StringValue">
@@ -4407,6 +4453,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПроверитьЗаполнениеАдреса</name>
@@ -4432,6 +4479,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ОчиститьАдрес</name>
@@ -4456,6 +4504,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ЗагрузитьКлассификатор</name>
@@ -4478,6 +4527,7 @@
     </action>
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>АдресВСвободнойФорме</name>
@@ -4500,6 +4550,7 @@
     </action>
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ЗаполнитьПоПочтовомуИндексу</name>
@@ -4522,6 +4573,7 @@
     </action>
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПодключитьИнтернетПоддержку</name>
@@ -4543,6 +4595,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ИсторияИзменений</name>
@@ -4560,6 +4613,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>АдресНаЯндексКарты</name>
@@ -4584,6 +4638,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>АдресНаGoogleMaps</name>
@@ -4608,6 +4663,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>АдресныйКлассификаторУстарел</name>
@@ -4633,6 +4689,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ДобавитьКомментарий</name>
@@ -4654,6 +4711,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>МуниципальноеДеление</name>
@@ -4676,6 +4734,7 @@
     </action>
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>АдминистративноТерриториальноеДеление</name>
@@ -4698,6 +4757,7 @@
     </action>
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>КомандаОтмена</name>
@@ -4719,6 +4779,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ВидКонтактнойИнформации</name>

@@ -74,6 +74,7 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьФайлы</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <width>10</width>
         <autoMaxWidth>true</autoMaxWidth>
@@ -175,7 +176,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>PictureField</type>
-          <editMode>EnterOnInput</editMode>
+          <editMode>Auto</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -220,7 +221,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
-          <editMode>EnterOnInput</editMode>
+          <editMode>Auto</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -231,6 +232,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -255,7 +257,8 @@
         <type>ColumnGroup</type>
         <extInfo xsi:type="form:ColumnGroupExtInfo">
           <group>InCell</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <showInCard>true</showInCard>
         </extInfo>
       </items>
       <commandBarLocation>None</commandBarLocation>
@@ -370,6 +373,7 @@
       <verticalScrollBar>AutoUse</verticalScrollBar>
       <horizontalLines>true</horizontalLines>
       <verticalLines>true</verticalLines>
+      <useAlternationRowColorBWA>false</useAlternationRowColorBWA>
       <autoMarkIncomplete>true</autoMarkIncomplete>
       <searchOnInput>Auto</searchOnInput>
       <initialListView>Auto</initialListView>
@@ -382,6 +386,7 @@
       <viewStatusLocation>None</viewStatusLocation>
       <searchControlLocation>None</searchControlLocation>
       <currentRowUse>SelectionPresentationAndChoice</currentRowUse>
+      <autoMaxCardHeight>true</autoMaxCardHeight>
       <rowFilter xsi:type="core:UndefinedValue"/>
     </items>
     <visible>true</visible>
@@ -535,6 +540,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -628,6 +634,7 @@
       </extendedTooltip>
       <type>Hyperlink</type>
       <commandName>Form.Command.ВыбратьКодировку</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -721,6 +728,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Cancel</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -762,6 +770,7 @@
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
+  <showCommandBar>false</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -776,13 +785,13 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
     <value xsi:type="core:StringValue">
@@ -1036,6 +1045,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьФайлы</name>
@@ -1057,6 +1067,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьКодировку</name>
@@ -1078,6 +1089,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ГруппаФайлов</name>

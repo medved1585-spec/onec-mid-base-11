@@ -55,7 +55,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>CheckBoxField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Auto</editMode>
       <showInHeader>true</showInHeader>
       <headerPicture xsi:type="core:PictureRef">
         <picture>CommonPicture.ОтправитьЭлектронноеПисьмо</picture>
@@ -97,7 +97,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
-          <editMode>EnterOnInput</editMode>
+          <editMode>Auto</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -108,6 +108,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -137,7 +138,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
-          <editMode>EnterOnInput</editMode>
+          <editMode>Auto</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -148,6 +149,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -171,7 +173,8 @@
         </extendedTooltip>
         <type>ColumnGroup</type>
         <extInfo xsi:type="form:ColumnGroupExtInfo">
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <showInCard>true</showInCard>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -204,7 +207,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
-          <editMode>EnterOnInput</editMode>
+          <editMode>Auto</editMode>
           <autoCellHeight>true</autoCellHeight>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -219,6 +222,7 @@
             <textColor xsi:type="core:ColorRef">
               <color>Style.ПоясняющийТекст</color>
             </textColor>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -243,7 +247,8 @@
         <type>ColumnGroup</type>
         <extInfo xsi:type="form:ColumnGroupExtInfo">
           <group>Vertical</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <showInCard>true</showInCard>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -268,7 +273,8 @@
       <type>ColumnGroup</type>
       <extInfo xsi:type="form:ColumnGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <showInCard>true</showInCard>
       </extInfo>
     </items>
     <autoCommandBar>
@@ -386,6 +392,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.ВыбратьВсехПолучателей</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -411,6 +418,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.ОтменитьВыборДляВсех</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -453,6 +461,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Item.Получатели.StandardCommand.OutputList</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -474,6 +483,7 @@
     <verticalScrollBar>AutoUse</verticalScrollBar>
     <horizontalLines>true</horizontalLines>
     <verticalLines>true</verticalLines>
+    <useAlternationRowColorBWA>false</useAlternationRowColorBWA>
     <autoInsertNewRow>true</autoInsertNewRow>
     <searchOnInput>Auto</searchOnInput>
     <initialListView>Auto</initialListView>
@@ -482,6 +492,7 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <searchStringLocation>Top</searchStringLocation>
+    <autoMaxCardHeight>true</autoMaxCardHeight>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <items xsi:type="form:FormGroup">
@@ -545,7 +556,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>CheckBoxField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Auto</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -582,7 +593,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Auto</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -593,6 +604,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <autoCommandBar>
@@ -695,6 +707,11 @@
       <footerHeight>1</footerHeight>
       <horizontalScrollBar>AutoUse</horizontalScrollBar>
       <verticalScrollBar>AutoUse</verticalScrollBar>
+      <horizontalLines>true</horizontalLines>
+      <verticalLines>true</verticalLines>
+      <horizontalLinesBWA>false</horizontalLinesBWA>
+      <verticalLinesBWA>false</verticalLinesBWA>
+      <useAlternationRowColorBWA>false</useAlternationRowColorBWA>
       <autoInsertNewRow>true</autoInsertNewRow>
       <searchOnInput>Auto</searchOnInput>
       <initialListView>Auto</initialListView>
@@ -703,6 +720,7 @@
       <rowPictureDataPath xsi:type="form:DataPath">
         <segments>ВыбранныеФорматыСохранения.Picture</segments>
       </rowPictureDataPath>
+      <autoMaxCardHeight>true</autoMaxCardHeight>
     </items>
     <enabled>true</enabled>
     <userVisible>
@@ -728,7 +746,7 @@
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>true</showTitle>
+      <showTitle>auto</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -918,6 +936,7 @@
     </extInfo>
   </items>
   <commandBarLocation>Bottom</commandBarLocation>
+  <showCommandBar>true</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -967,6 +986,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Cancel</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1003,7 +1023,7 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveDataInSettings>UseList</saveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
@@ -1013,7 +1033,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ВыбранныеФорматыСохранения</name>
@@ -1265,6 +1285,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьВсехПолучателей</name>
@@ -1289,6 +1310,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ОтменитьВыборДляВсех</name>
@@ -1313,6 +1335,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>Получатели</name>

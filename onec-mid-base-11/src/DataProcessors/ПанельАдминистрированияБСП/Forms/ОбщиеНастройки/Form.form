@@ -59,6 +59,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.StandardCommand.Help</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -168,6 +169,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:Button">
@@ -190,6 +192,7 @@
       </extendedTooltip>
       <type>Hyperlink</type>
       <commandName>Form.Command.РегиональныеНастройки</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -322,6 +325,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
         <inputHint>
           <key>ru</key>
           <value>Например: http://myserver.com</value>
@@ -386,6 +390,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
         <inputHint>
           <key>ru</key>
           <value>Например: http://localnet/mydatabase</value>
@@ -416,11 +421,11 @@
       <group>Vertical</group>
       <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
-      <controlRepresentation>Picture</controlRepresentation>
+      <controlRepresentation>Button</controlRepresentation>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>true</showTitle>
+      <showTitle>auto</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -461,6 +466,7 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>CommonForm.ПараметрыПроксиСервера.StandardCommand.Open</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -524,6 +530,7 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>Form.Command.ИспользованиеПрофилейБезопасности</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -721,12 +728,12 @@
       <group>Vertical</group>
       <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
-      <controlRepresentation>Picture</controlRepresentation>
+      <controlRepresentation>Button</controlRepresentation>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <slaveItemsWidth>Equal</slaveItemsWidth>
-      <showTitle>true</showTitle>
+      <showTitle>auto</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -758,6 +765,7 @@
       </extendedTooltip>
       <type>Hyperlink</type>
       <commandName>Catalog.ВидыКонтактнойИнформации.StandardCommand.OpenList</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -791,11 +799,11 @@
       <group>Vertical</group>
       <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
-      <controlRepresentation>Picture</controlRepresentation>
+      <controlRepresentation>Button</controlRepresentation>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>true</showTitle>
+      <showTitle>auto</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -879,6 +887,7 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>Form.Command.ДополнительныеСведения</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -973,6 +982,7 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>Form.Command.ДополнительныеРеквизиты</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1034,6 +1044,7 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>Form.Command.Метки</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1124,12 +1135,12 @@
       <group>HorizontalIfPossible</group>
       <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
-      <controlRepresentation>Picture</controlRepresentation>
+      <controlRepresentation>Button</controlRepresentation>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <slaveItemsWidth>Equal</slaveItemsWidth>
-      <showTitle>true</showTitle>
+      <showTitle>auto</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -1198,6 +1209,7 @@
         </extendedTooltip>
         <type>Hyperlink</type>
         <commandName>Form.Command.НастроитьХранениеИсторииИзменений</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1263,12 +1275,12 @@
       <group>HorizontalIfPossible</group>
       <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
-      <controlRepresentation>Picture</controlRepresentation>
+      <controlRepresentation>Button</controlRepresentation>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <slaveItemsWidth>Equal</slaveItemsWidth>
-      <showTitle>true</showTitle>
+      <showTitle>auto</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -1339,6 +1351,7 @@
         </extendedTooltip>
         <type>Hyperlink</type>
         <commandName>Form.Command.НастроитьПолнотекстовыйПоиск</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1403,11 +1416,11 @@
       <group>HorizontalIfPossible</group>
       <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
-      <controlRepresentation>Picture</controlRepresentation>
+      <controlRepresentation>Button</controlRepresentation>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>true</showTitle>
+      <showTitle>auto</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -1562,6 +1575,7 @@
         </extendedTooltip>
         <type>Hyperlink</type>
         <commandName>0</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <width>43</width>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1618,6 +1632,7 @@
       </extendedTooltip>
       <type>Hyperlink</type>
       <commandName>0</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1752,6 +1767,7 @@
                 </presentation>
                 <value xsi:type="core:ReferenceValue"/>
               </choiceList>
+              <orientation>Vertical</orientation>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1838,6 +1854,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
               <heightControlVariant>InFormRows</heightControlVariant>
             </extInfo>
           </items>
@@ -2060,6 +2077,7 @@
                       <value>2</value>
                     </value>
                   </choiceList>
+                  <orientation>Vertical</orientation>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -2167,6 +2185,7 @@
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
+                  <textSize>Normal</textSize>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -2726,6 +2745,7 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>0</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <width>43</width>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2759,6 +2779,7 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>0</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2846,12 +2867,12 @@
       <group>Vertical</group>
       <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
-      <controlRepresentation>Picture</controlRepresentation>
+      <controlRepresentation>Button</controlRepresentation>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <slaveItemsWidth>Equal</slaveItemsWidth>
-      <showTitle>true</showTitle>
+      <showTitle>auto</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -2927,6 +2948,7 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>Form.Command.НастроитьРасписание</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -3022,6 +3044,7 @@
         </extendedTooltip>
         <type>Hyperlink</type>
         <commandName>Form.Command.ПосмотретьПомеченныеНаУдаление</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -3085,11 +3108,11 @@
       <group>HorizontalIfPossible</group>
       <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
-      <controlRepresentation>Picture</controlRepresentation>
+      <controlRepresentation>Button</controlRepresentation>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>true</showTitle>
+      <showTitle>auto</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -3146,6 +3169,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -3310,11 +3334,11 @@
       <group>Vertical</group>
       <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
-      <controlRepresentation>Picture</controlRepresentation>
+      <controlRepresentation>Button</controlRepresentation>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>true</showTitle>
+      <showTitle>auto</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -3371,6 +3395,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -3419,6 +3444,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -3478,11 +3504,11 @@
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>HorizontalIfPossible</group>
       <collapsed>true</collapsed>
-      <controlRepresentation>Picture</controlRepresentation>
+      <controlRepresentation>Button</controlRepresentation>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>true</showTitle>
+      <showTitle>auto</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -3519,13 +3545,14 @@
   <excludedCommands>Write</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>НаборКонстант</name>
@@ -3759,6 +3786,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>НастроитьПолнотекстовыйПоиск</name>
@@ -3776,6 +3804,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>НастроитьХранениеИсторииИзменений</name>
@@ -3797,6 +3826,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>РегиональныеНастройки</name>
@@ -3818,6 +3848,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ДополнительныеРеквизиты</name>
@@ -3839,6 +3870,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ДополнительныеСведения</name>
@@ -3860,6 +3892,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>НастроитьРасписание</name>
@@ -3877,6 +3910,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПосмотретьПомеченныеНаУдаление</name>
@@ -3894,6 +3928,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Метки</name>
@@ -3911,6 +3946,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

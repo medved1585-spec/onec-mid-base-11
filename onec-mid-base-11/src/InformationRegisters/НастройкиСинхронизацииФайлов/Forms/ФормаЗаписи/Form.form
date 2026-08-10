@@ -88,6 +88,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
         <inputHint>
           <key>ru</key>
           <value>Выберите из списка</value>
@@ -180,6 +181,7 @@
               <value>ТолькоФайлыЭлемента</value>
             </value>
           </choiceList>
+          <orientation>Vertical</orientation>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -228,6 +230,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -306,6 +309,7 @@
             <value>ВсеФайлы</value>
           </value>
         </choiceList>
+        <orientation>Vertical</orientation>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -334,7 +338,7 @@
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>true</showTitle>
+      <showTitle>auto</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -398,6 +402,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Item.ПравилоНастройкиОтбор.StandardCommand.AddFilterItem</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -423,6 +428,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.ДобавитьУсловиеПоДате</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -451,6 +457,7 @@
           <type>Popup</type>
           <extInfo xsi:type="form:PopupGroupExtInfo">
             <representation>Auto</representation>
+            <importance>Normal</importance>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -475,6 +482,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Item.ПравилоНастройкиОтбор.StandardCommand.GroupFilterItems</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
@@ -499,6 +507,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Item.ПравилоНастройкиОтбор.StandardCommand.Ungroup</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -542,6 +551,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Item.ПравилоНастройкиОтбор.StandardCommand.Delete</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -693,6 +703,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Item.ПравилоНастройкиОтбор.StandardCommand.AddFilterItem</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -703,6 +714,7 @@
             <name>ПравилоНастройкиОтборКонтекстноеМенюДобавитьУсловиеПоДате</name>
             <id>147</id>
             <visible>true</visible>
+            <enabled>false</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
@@ -717,6 +729,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.ДобавитьУсловиеПоДате</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -762,6 +775,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Item.ПравилоНастройкиОтбор.StandardCommand.GroupFilterItems</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -787,6 +801,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Item.ПравилоНастройкиОтбор.StandardCommand.Ungroup</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -829,6 +844,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Item.ПравилоНастройкиОтбор.StandardCommand.Delete</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -852,6 +868,7 @@
       <verticalScrollBar>AutoUse</verticalScrollBar>
       <horizontalLines>true</horizontalLines>
       <verticalLines>true</verticalLines>
+      <useAlternationRowColorBWA>false</useAlternationRowColorBWA>
       <searchOnInput>Auto</searchOnInput>
       <initialListView>Auto</initialListView>
       <initialTreeView>ExpandAllLevels</initialTreeView>
@@ -860,6 +877,7 @@
       <enableStartDrag>true</enableStartDrag>
       <enableDrag>true</enableDrag>
       <currentRowUse>SelectionPresentationAndChoice</currentRowUse>
+      <autoMaxCardHeight>true</autoMaxCardHeight>
       <viewMode>All</viewMode>
       <settingsNamedItemDetailedRepresentation>false</settingsNamedItemDetailedRepresentation>
     </items>
@@ -907,6 +925,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
         <inputHint>
           <key>ru</key>
           <value>Например, только файлы организации ООО Ромашка</value>
@@ -993,6 +1012,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.StandardCommand.Write</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1035,6 +1055,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Help</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1060,13 +1081,13 @@
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Запись</name>
@@ -1223,6 +1244,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ЗапрещатьИзменятьУчетнуюЗапись</name>

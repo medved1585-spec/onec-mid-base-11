@@ -62,7 +62,7 @@
         </contextMenu>
         <type>InputField</type>
         <readOnly>true</readOnly>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Auto</editMode>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
@@ -71,6 +71,7 @@
           <wrap>true</wrap>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <autoCommandBar>
@@ -189,6 +190,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Item.ТаблицаФайлов.StandardCommand.Delete</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -208,6 +210,7 @@
       <verticalScrollBar>AutoUse</verticalScrollBar>
       <horizontalLines>true</horizontalLines>
       <verticalLines>true</verticalLines>
+      <useAlternationRowColorBWA>false</useAlternationRowColorBWA>
       <autoInsertNewRow>true</autoInsertNewRow>
       <searchOnInput>Auto</searchOnInput>
       <initialListView>Auto</initialListView>
@@ -218,6 +221,7 @@
       <searchStringLocation>Top</searchStringLocation>
       <viewStatusLocation>None</viewStatusLocation>
       <searchControlLocation>None</searchControlLocation>
+      <autoMaxCardHeight>true</autoMaxCardHeight>
       <rowFilter xsi:type="core:UndefinedValue"/>
     </items>
     <items xsi:type="form:FormField">
@@ -462,6 +466,7 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.ТекстНастроекИзменить</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -533,6 +538,7 @@
         </extendedTooltip>
         <type>Hyperlink</type>
         <commandName>Form.Command.ТекстНастроекИзменить</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <width>75</width>
         <autoMaxWidth>true</autoMaxWidth>
@@ -638,6 +644,7 @@
     </extInfo>
   </items>
   <commandBarLocation>Top</commandBarLocation>
+  <showCommandBar>true</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -695,6 +702,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.СохранитьВсеКакОдинФайл</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -724,6 +732,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.СохранитьВсеКакОтдельныеФайлы</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -749,6 +758,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.Сканировать</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -779,6 +789,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.Пересканировать</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -804,6 +815,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.Настройка</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -835,13 +847,13 @@
     <name>ПриЗакрытии</name>
   </handlers>
   <excludedCommands>Cancel</excludedCommands>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>АдресКартинки</name>
@@ -1472,6 +1484,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Пересканировать</name>
@@ -1493,6 +1506,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Сканировать</name>
@@ -1514,6 +1528,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>СохранитьВсеКакОдинФайл</name>
@@ -1535,6 +1550,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>СохранитьВсеКакОтдельныеФайлы</name>
@@ -1556,6 +1572,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Настройка</name>
@@ -1577,6 +1594,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ТекстНастроекИзменить</name>
@@ -1593,6 +1611,7 @@
       <common>true</common>
     </use>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ТолькоОдинФайл</name>

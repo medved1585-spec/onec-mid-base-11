@@ -94,7 +94,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>CheckBoxField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Auto</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -128,7 +128,7 @@
         </contextMenu>
         <type>InputField</type>
         <readOnly>true</readOnly>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Auto</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -139,6 +139,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -163,7 +164,8 @@
       <type>ColumnGroup</type>
       <extInfo xsi:type="form:ColumnGroupExtInfo">
         <group>InCell</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <showInCard>true</showInCard>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -193,7 +195,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Auto</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -204,6 +206,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <autoCommandBar>
@@ -231,6 +234,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.УстановитьФлажки</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -256,6 +260,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.СнятьФлажки</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -307,6 +312,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Item.СписокКолонок.StandardCommand.MoveUp</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -333,6 +339,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Item.СписокКолонок.StandardCommand.MoveDown</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -382,6 +389,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.СброситьНастройки</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -494,6 +502,7 @@
     <verticalScrollBar>AutoUse</verticalScrollBar>
     <horizontalLines>true</horizontalLines>
     <verticalLines>true</verticalLines>
+    <useAlternationRowColorBWA>false</useAlternationRowColorBWA>
     <autoInsertNewRow>true</autoInsertNewRow>
     <searchOnInput>Auto</searchOnInput>
     <initialListView>Auto</initialListView>
@@ -501,6 +510,7 @@
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
+    <autoMaxCardHeight>true</autoMaxCardHeight>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <items xsi:type="form:FormField">
@@ -544,6 +554,7 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -598,6 +609,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Close</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -636,14 +648,14 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
@@ -937,6 +949,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>УстановитьФлажки</name>
@@ -961,6 +974,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>СнятьФлажки</name>
@@ -985,6 +999,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>СброситьНастройки</name>
@@ -1006,6 +1021,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ИмяОбъектаСопоставления</name>

@@ -78,7 +78,7 @@
           <key>ru</key>
           <value>Доступные поля</value>
         </collapsedRepresentationTitle>
-        <controlRepresentation>Picture</controlRepresentation>
+        <controlRepresentation>Button</controlRepresentation>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
@@ -170,6 +170,7 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
+    <markRequiredComplete>true</markRequiredComplete>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -182,6 +183,7 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -232,6 +234,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.ПроверитьФормулу</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -257,7 +260,7 @@
     <event>FillCheckProcessingAtServer</event>
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
@@ -267,7 +270,7 @@
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <verticalScroll>UseIfNecessary</verticalScroll>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Формула</name>
@@ -381,6 +384,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПроверитьФормулу</name>
@@ -406,6 +410,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>Операнды</name>
